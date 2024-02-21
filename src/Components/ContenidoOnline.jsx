@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/ContenidoOnline.css"
-import photo from "../assets/images/photo-grid.png"
+import photo from "/images/photo-grid.png"
 
 
 export default function ContenidoOnline (){

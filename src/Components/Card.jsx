@@ -1,12 +1,12 @@
 import React from "react";
 import "./css/Card.css"
-import star from "star.png"
+import star from "/images/star.png"
 
 export default function Card(props) {
   return (
 
     <div className="n-caard-container">
-      <img src={props.img} alt="" className="n-card-image" />
+      <img src={`../images/${props.img}`} alt="" className="n-card-image" />
 
       <div className="n-card-star-stats">
         <img src={star} alt="" className="n-card-star-image" />
