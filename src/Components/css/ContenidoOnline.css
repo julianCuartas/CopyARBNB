@@ -1,0 +1,24 @@
+.n-Contenido-image{
+    max-width: 900px;
+    align-self: center;
+
+
+}
+.n-contenido-section{
+
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+
+}
+.n-Contenido-tittle{
+margin-bottom: 16px;
+;
+
+
+}
+.n-Contenido-text{
+
+margin-top: 0;
+}

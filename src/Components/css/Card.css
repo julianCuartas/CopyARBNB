@@ -1,0 +1,36 @@
+.n-gray{
+
+    color: #918E9B;
+
+}
+.n-bold{
+
+font-weight: bold;
+
+}
+
+
+.n-card-image {
+    border-radius: 9px;
+}
+
+.n-card-star-image {
+    width: 14px;
+    height: 14px;
+}
+
+.n-caard-container {
+
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.n-card-star-stats {
+
+display: flex;
+align-items: center;
+
+
+}
