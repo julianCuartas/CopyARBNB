@@ -1,20 +1,30 @@
 import React from "react";
 import ContenidoOnline from "./ContenidoOnline";
 import Card from "./Card";
+import Data from "../assets/data"
+import "./css/contenido.css"
 
 export default function Main() {
 
+    const data = Data.map(data => {
 
+        return <Card
+            key={data.id}
+           {...data}
+
+
+        />
+
+    })
     return (
 
         <>
-            <Card img="katie-zaferes.png"
-                rating="5.0"
-                reviewCount="6"
-                country="USA"
-                title="Life Lessons with Katie Zaferes"
-                price="136"
-            />
+            <ContenidoOnline />
+
+            <section className="n-section-cards">
+                {data}
+            </section>
+
         </>
     )
 
